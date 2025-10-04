@@ -11,3 +11,8 @@ body{
 #numbers{
     font-size: 100px;
 }
+
+.card{
+    border-radius: 15px;
+    overflow:hidden;
+}

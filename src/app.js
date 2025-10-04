@@ -20,7 +20,12 @@ window.onload = function () {
 
     let hand = icons[randomIcons]
 
-
+    if (hand === "♦" || hand === "♥") {
+      document.getElementsByClassName("icons")[0].style.color = "red";
+      document.getElementsByClassName("icons")[1].style.color = "red";
+      document.getElementById("numbers").style.color = "black";
+    }
+   
     console.log(hand);
     return hand;
 
