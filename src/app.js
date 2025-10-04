@@ -34,7 +34,7 @@ window.onload = function () {
 
   changeCard()
 
-  // document.getElementsByClassName("icons")[0].textContent = randomIcons;
+  
 
 
 };
